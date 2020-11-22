@@ -1,0 +1,15 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "docker-compose",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": ["storeService", "orderService", "webStore"],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "joergriegel",
+    "dockerPushCommand": "docker push",
+    "jwtSecretKey": "YjQ5YjRkMTI4ZmU1Yzk3MjdjMTYyYmEyYWM4MGYxYWYxYTUyOWRkMzllNWM4NzY2ZjE2N2I2N2M0Yzc5Zjg2ZWYxNWJmZDNkZDc3YWRjYTdjOGE4NjUyMzEzNTMwMWVmNDg4MA=="
+  }
+}
